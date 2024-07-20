@@ -1,0 +1,7 @@
+{"_id":{"$oid":"667b15ecd05cf5800bcc8988"},"name":"Rutuja","age":23,"work":"MBA"}
+{"_id":1,"name":"shryash","work":"Developer"}
+{"_id":{"$oid":"667b15ecd05cf5800bcc8989"},"_id1":1,"name":"Dhananjay","age":23,"work":"chapri"}
+{"_id":{"$oid":"667b3555178d2fede9754738"},"name":"John","age":30,"city":"New York"}
+{"_id":{"$oid":"667b3555178d2fede9754739"},"name":"Alice","age":25,"city":"Los Angeles"}
+{"_id":{"$oid":"667b3555178d2fede975473a"},"name":"Bob","age":22,"city":"Chicago"}
+{"_id":{"$oid":"667b3555178d2fede975473b"},"name":"Carol","age":28,"city":"San Francisco"}
