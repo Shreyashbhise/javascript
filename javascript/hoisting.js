@@ -1,30 +1,30 @@
 // // function hoisting
 
-// myfunction();
+ myfunction();
 
-// function myfunction() {
-//     console.log("Hello!")
-// }
+ function myfunction() {
+     console.log("Hello!")
+ }
 
-// //variable hoisting
+// variable hoisting
 
-// x = 10;
-// console.log(x);
+ x = 10;
+ console.log(x);
 
-// var x;
+ var x;
 
 
 
-// mynewfunction();
+ mynewfunction();
 
-// function mynewfunction() {
-//     console.log("Hello");
-// }
+ function mynewfunction() {
+     console.log("Hello");
+ }
 
-// x = 10;
-// console.log(x);
+ x = 10;
+ console.log(x);
 
-// var x;
+ var x;
 
 
 myfunction();
@@ -54,4 +54,11 @@ function prime() {
 x = 10;
 console.log(x);
  
-var x;
+let x;    /// Cannot access 'x' before initialization 
+
+
+// Arrow function hoisting   /////// Cannot access 'add' before initialization 
+add();
+const add = ()=> {
+    console.log("Hoisting");
+}
