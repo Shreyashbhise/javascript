@@ -1,14 +1,14 @@
 // var does not create a new scope for each iteration of the loop, so the same i variable (which ends up being 6 after the loop completes) is shared by all setTimeout callbacks.
 
-// function x() {
-//     for(var i = 1; i <= 5; i++) {
-//         setTimeout(function () { // we can use let
-//             console.log(i);
-//         }, i * 1000); 
-//     }
-//     console.log("Hello javascript");
-// }
-// x();
+function x() {
+     for(var i = 1; i <= 5; i++) {
+        setTimeout(function () { // we can use let
+            console.log(i);
+       }, i * 1000); 
+    }
+     console.log("Hello javascript");
+ }
+ x();
 
 
 // function x() { 
